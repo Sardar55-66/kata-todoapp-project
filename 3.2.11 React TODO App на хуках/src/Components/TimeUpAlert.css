@@ -1,0 +1,29 @@
+.time-up {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    height: 59px;
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 1px solid black;
+    top: 0;
+    left: 0;
+}
+.time-up__alert {
+    display: block;
+    margin: 0 auto;
+}
+.anticon-close-circle {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+.anticon-close-circle:hover {
+    color: black;
+}
+.time-up__title {
+    margin-top: 15px;
+}
